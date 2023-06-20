@@ -45,7 +45,7 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
-        ],[      
+            ],[      
             InlineKeyboardButton("😎 ADMIN 😎", url="https://t.me/kishanyadav484"),
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -97,7 +97,7 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
-        ],[      
+            ],[      
             InlineKeyboardButton("😎 ADMIN 😎", url="https://t.me/kishanyadav484"),
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
