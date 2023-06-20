@@ -45,7 +45,9 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
-        ]]
+        ],,[      
+            InlineKeyboardButton("😎 ADMIN 😎", url="https://t.me/kishanyadav484"),
+            InlineKeyboardButton("📽️ Movie CHANNEL 🎥", url="https://t.me/newSouthmovieinhindid"]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
@@ -95,7 +97,9 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
-        ]]
+        ],,[      
+            InlineKeyboardButton("😎 ADMIN 😎", url="https://t.me/kishanyadav484"),
+            InlineKeyboardButton("📽️ Movie CHANNEL 🎥", url="https://t.me/newSouthmovieinhindid"]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgUAAxkBAAIFNGJSlfOErbkSeLt9SnOniU-58UUBAAKaAAPIlGQULGXh4VzvJWoeBA")
